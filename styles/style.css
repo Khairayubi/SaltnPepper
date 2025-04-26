@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@font-face {
+    font-family: futurak;
+    src: url(../assets/fonts/futurak.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NavBar started */
+
+:root{
+    --black: #000000;
+    --red: #ed1c24;
+    --white: #ffffff;
+}
+
+.logoImage{
+    width:165px;
+
+}
+
+.navbar {
+    display: flex;
+    background-color: var(--black);
+    justify-content: space-around;
+  }
+
+.navItems{
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.franchise-btn{
+    background-color: transparent;
+    color: var(--white);
+    padding: 15px 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.order-btn{
+    background-color: var(--red);
+    color: var(--white);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+}
+.arrow-span{
+    color: white;
+}
+
+
+/* Navbar Ended */
