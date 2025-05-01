@@ -2,8 +2,13 @@
 
 @font-face {
     font-family: futurak;
-    src: url(../assets/fonts/futurak.ttf);
+    src: url('../assets/fonts/futurak.ttf');
   }
+
+@font-face{
+    font-family: Apercu;
+    src: url('../assets/fonts/Apercu/Apercu\ Pro\ Light.otf');
+}
 
 *{
     margin: 0;
@@ -28,6 +33,7 @@
     display: flex;
     background-color: var(--black);
     justify-content: space-around;
+    align-items: center;
   }
 
 .navItems{
@@ -56,5 +62,98 @@
     color: white;
 }
 
+.menubar{
+    display: none;
+}
+
+
+/* Slider Image Started */
+.banner img{
+    width: 100%;
+}
+
+/* Slider Image Ended */
+
+
+/* Main-under-slider started */
+.Main-under-slider{
+    
+    background-color: var(--black);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 10px;
+    
+}
+
+.weclome-description{
+
+    font-family: Apercu;
+    color: white;
+    font-size: 40px;
+}
+
+.weclome-description span{
+    font-family: futurak;
+    font-size: 52px;
+}
+.Welcome-para{
+    font-family: Apercu;
+    color: rgba(255, 255, 255, 0.7) ;
+    font-size: 16px;
+}
+.brand-part{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+}
+.brand{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.brand-img{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 260px;
+    height: 140px;
+    
+}
+.brand-btn{
+    background-color: transparent;
+    color: #ffffffb3;
+    border: 1px solid #ffffffb3;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+
+
+/* Main-under-slider ended */
+
+
+
+/* navbar Part */
+@media (max-width:700px){
+    
+    .navItems{
+    display :none;
+    }
+    .menubar{
+        display :block;
+        
+    }
+    .menubar img{
+        height: 20px;
+        background-color: white;
+    }
+}
 
 /* Navbar Ended */
