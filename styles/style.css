@@ -5,6 +5,10 @@
     src: url('../assets/fonts/futurak.ttf');
   }
 
+@font-face {
+    font-family: Poppins;
+    src: url('../assets/fonts/Poppins-Full-Version/Desktop\ Fonts/Butler_Regular');
+}
 @font-face{
     font-family: Apercu;
     src: url('../assets/fonts/Apercu/Apercu\ Pro\ Light.otf');
@@ -182,8 +186,59 @@
     font-size: 52px;
     
 }
+.Franchise1{
+    display: flex;
+    justify-content: space-between;
+}
 
+.Franchise-L small{
+    font-family: Apercu;
+    font-size: 16px;
+    margin: 0px 0px 8px;
+    color:#ed1c24;
+}
+.Franchise-L h3{
+    font-family: Apercu;
+    font-size: 32px;
+    color: white;
+    margin: 0px 0px 24px;
+}
+.Franchise-L h3 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-size: 32px;
+    color: white;
+}
+.Franchise-L p{
+    font-family: Apercu;
+    font-size: 16px;
+    color: #ffffffb3;
+    margin: 0px 0px 10px;
 
+}
+
+.Franchise-L button{
+    font-family: Poppins;
+    background-color: transparent;
+    color: white;
+    padding: 20px 20px 20px;
+    margin: 20px 0px 0px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.Franchise2{
+    margin-top: 50px;
+    display: inline-flex;
+}
+.Franchise3{
+    margin-top: 50px;
+}
+
+.Franchise-L2{
+    padding: 0px 20px 0px;
+}
 
 /* Resturant Franchises Started */
 
