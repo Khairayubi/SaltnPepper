@@ -10,6 +10,11 @@
     src: url('../assets/fonts/Apercu/Apercu\ Pro\ Light.otf');
 }
 
+@font-face {
+    font-family: butler;
+    src: url('../assets/fonts/Butler/Butler_Regular.otf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +31,7 @@
 
 .logoImage{
     width:165px;
-
+    cursor: pointer;
 }
 
 .navbar {
@@ -34,6 +39,7 @@
     background-color: var(--black);
     justify-content: space-around;
     align-items: center;
+    
   }
 
 .navItems{
@@ -41,6 +47,8 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    cursor: pointer;
+    
 }
 
 .franchise-btn{
@@ -49,6 +57,7 @@
     padding: 15px 20px;
     border: 2px solid white;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 .order-btn{
@@ -57,6 +66,7 @@
     padding: 15px 20px;
     border: none;
     border-radius: 25px;
+    cursor: pointer;
 }
 .arrow-span{
     color: white;
@@ -132,11 +142,51 @@
     padding: 10px 50px;
     border-radius: 25px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 
 
 /* Main-under-slider ended */
+
+/* Resturant Franchises Started */
+.main-franchise{
+    background-color: rgb(23, 22, 22);
+    padding:70px;
+    
+}
+
+.franchise-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px 8px;
+}
+
+.Heading-frn{
+    font-family: butler;
+    font-size: 48px;
+    color: white;
+}
+.para-frn{
+    color: #ffffffb3 ;
+    font-family: Apercu;
+    margin: 0px 0px 48px;
+}
+
+
+.Heading-frn span{
+    font-family: futurak;
+    font-size: 52px;
+    
+}
+
+
+
+/* Resturant Franchises Started */
+
 
 
 
