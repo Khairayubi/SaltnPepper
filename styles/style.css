@@ -18,6 +18,10 @@
     font-family: butler;
     src: url('../assets/fonts/Butler/Butler_Regular.otf');
 }
+@font-face {
+    font-family: inter;
+    src: url('../assets/fonts/Inter/Inter-Regular.otf');
+}
 
 *{
     margin: 0;
@@ -216,6 +220,15 @@
     font-size: 32px;
     color: white;
 }
+.Franchise-L h3{
+    font-family: Apercu;
+    font-size: 32px;
+}
+.Franchise-L h3 span{
+    font-family: futurak;
+    font-size: 32px;
+    color: white;
+}
 .Franchise-L p{
     font-family: Apercu;
     font-size: 16px;
@@ -397,3 +410,50 @@
 }
 
 /* Navbar Ended */
+/* About Page Started */
+
+.about-page{
+    background-color: black;
+    color: #ffffffb3;
+}
+.All-about-Content{
+    padding: 0px 60px;
+
+}
+/* Introduction Started */
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 72px 0px;
+    margin: 0px 0px 32px;
+}
+.introduction h2{
+    font-family: butler;
+    font-size: 42px;
+    color: white;
+    margin: 0px 0px 32px;
+
+}
+.introduction p{
+    font-family: Apercu;
+    font-size: 16px;
+    margin: 0px 0px 15px;
+}
+/* Introduction Ended */
+
+/* Resturant Started */
+.resturant-main{
+    text-align: center;
+}
+.resturant-title{
+    text-align: center;
+}
+.resturant-title span{
+    font-family:inter;
+    font-size: 32px;
+    color: #ffffff;
+}
+/* Resturant Ended */
+/* About Page Ended */
